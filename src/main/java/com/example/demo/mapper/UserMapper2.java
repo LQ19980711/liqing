@@ -21,7 +21,7 @@ public interface UserMapper2 {
 
 
     @Select("SELECT id,loginName, userName,easybuy_user.password  FROM  easybuy_user")
-    //@Transactional
+        //@Transactional
     List<User2> userLlist();
 
 

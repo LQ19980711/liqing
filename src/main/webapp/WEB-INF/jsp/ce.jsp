@@ -12,12 +12,8 @@
 </head>
 <body>
 <p>文件上传热部署</p>
-
-
 <script type="text/javascript" src="jquery-1.10.2.js"></script>
 <script>
-
-
     $(function () {
 
     });
@@ -25,7 +21,6 @@
 <form  action="/upload" method="post" enctype="multipart/form-data">
     <p><input type="file" name="t_pic"> <input type="submit"  id="sc" value="上传">   </p>
 </form>
-
-
+<h2>Hello,World</h2>
 </body>
 </html>
